@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@100;300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@100;300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
 
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
+font-family: 'Roboto', sans-serif;
+font-family: 'Pacifico', cursive; */
 
 body {
   font-style: normal;
@@ -50,12 +51,44 @@ h6 {
   display: none;
 }
 
-header {
+header.site-header {
   margin-top: 0px;
   margin-bottom: 0px;
-  /* padding: 34px 0px 30px 0px; */
+  padding: 34px 0px 30px 0px;
   z-index: 2;
   position: relative;
+}
+
+.site-title a,
+.footer .site-title a {
+  font-family: "Pacifico", cursive;
+  text-decoration: none;
+  color: white;
+  font-size: 38px;
+  line-height: 42px;
+}
+
+.menu-menu-1-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-navigation a {
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 1.6em;
+  letter-spacing: 0.025em;
+  color: #fff;
+  padding: 0;
+  margin: 6px 0 6px 59px;
+}
+
+.main-navigation li.current-menu-item a,
+.main-navigation a:hover {
+  color: #ffdc99;
 }
 
 .hero h1 {
@@ -67,4 +100,12 @@ header {
 
 .hero h1:nth-child(2) {
   color: #000;
+}
+
+footer.site-footer {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  background-color: #181818;
+  padding: 99px 0px 95px 0px;
 }
