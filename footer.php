@@ -21,14 +21,14 @@
 						</div>
 					<?php } ?>
 				</div>
-				<div class="col">
+				<div class="col offset-md-1">
 					<?php if ( is_active_sidebar('footer-2') ) { ?>
 						<div class="footer">
 							<?php dynamic_sidebar('footer-2'); ?>
 						</div>
 					<?php } ?>
 				</div>
-				<div class="col">
+				<div class="col offset-md-1">
 					<?php if ( is_active_sidebar('footer-3') ) { ?>
 						<div class="footer">
 							<?php dynamic_sidebar('footer-3'); ?>
