@@ -28,6 +28,12 @@ p {
   line-height: 24px;
 }
 
+a,
+a:focus,
+a:active {
+  color: #060617;
+}
+
 h1,
 h2,
 h3,
@@ -130,6 +136,62 @@ header.site-header {
 
 .box-heading a:hover {
   color: #ef4464;
+}
+
+.showcase-box h3 a {
+  color: #393948;
+  font-family: "Poppins", Sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: 0px;
+}
+
+.showcase-box h3 a:hover {
+  color: #ef4464;
+}
+
+.showcase-box p {
+  color: #929295;
+  font-family: "Raleway", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.testimonial {
+  color: #ffffff;
+  font-family: "Raleway", Sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0px;
+}
+
+.premium-blog-excerpt-link {
+  font-family: "Poppins", Sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: 0px;
+  border-style: solid;
+  border-width: 0px 0px 3px 0px;
+  border-color: #ef4464;
+  color: #060617;
+}
+
+.premium-blog-excerpt-link:hover {
+  border-color: #060617;
+}
+
+.elementor-accordion-item {
+  border-bottom-width: 1px !important;
+  border-color: #e8e8f6 !important;
+  padding: 17px 0px 20px 0px;
 }
 
 footer.site-footer {
