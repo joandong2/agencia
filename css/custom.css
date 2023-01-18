@@ -97,6 +97,18 @@ header.site-header {
   color: #ffdc99;
 }
 
+.breadcrumbs {
+  font-family: "Poppins", Sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.2em;
+  letter-spacing: 0px;
+  color: #fff;
+}
+
 .hero h1 {
   font-size: 144px;
   line-height: 1em;
@@ -194,6 +206,11 @@ header.site-header {
   padding: 17px 0px 20px 0px;
 }
 
+.elementor-element .gallery {
+  display: flex;
+  gap: 0;
+}
+
 footer.site-footer {
   font-style: normal;
   font-weight: 300;
@@ -212,4 +229,36 @@ footer.site-footer {
 
 .footer ul {
   margin: 0;
+}
+
+.wp-block-latest-posts__post-title {
+  font-family: "Raleway", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.wp-block-latest-posts__post-title:hover {
+  color: #ec4364;
+}
+
+.wp-block-latest-posts__post-excerpt {
+  color: #929295;
+  font-family: "Raleway", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  text-align: left;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 25px 0px;
+}
+
+.sb_instagram_header {
+  display: none;
 }
